@@ -45,25 +45,25 @@ console.log("Entre com a opção desejada: ");
                 break;
             case 2:
                 console.log(colors.fg.whitestrong, 
-                    "\n\nListar todos os Produtos\n\n", colors.reset);
+                    "\n\nListar todos os Livros\n\n", colors.reset);
 
                 keyPress()
                 break;
             case 3:
                 console.log(colors.fg.whitestrong, 
-                    "\n\nConsultar dados do Produto - por Id\n\n", colors.reset);
+                    "\n\nListar Livro Por Id\n\n", colors.reset);
 
                 keyPress()
                 break;
             case 4:
                 console.log(colors.fg.whitestrong, 
-                    "\n\nAtualizar dados do Produto\n\n", colors.reset);
+                    "\n\nAtualizar dados do Livro\n\n", colors.reset);
 
                 keyPress()
                 break;
             case 5:
                 console.log(colors.fg.whitestrong, 
-                    "\n\nApagar um Produto\n\n", colors.reset);
+                    "\n\nApagar um Livro\n\n", colors.reset);
 
                 keyPress()
                 break;
