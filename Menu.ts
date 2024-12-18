@@ -1,5 +1,8 @@
 import readlinesync = require("readline-sync");
 import { colors } from "./src/util/Colors";
+import { Livro } from "./src/model/Livro";
+import { Terror } from "./src/model/Terror"
+import { Conto } from "./src/model/Conto"
 
 export function main() {
 
