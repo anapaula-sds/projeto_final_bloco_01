@@ -52,7 +52,7 @@ export abstract class Livro{
 
         switch (this._tipo) {
             case 1:
-                tipo = "Romance";
+                tipo = "Terror";
                 break;
             case 2:
                 tipo = "Contos";

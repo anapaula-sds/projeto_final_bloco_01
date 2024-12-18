@@ -1,26 +1,26 @@
 import { Livro } from "./Livro";
 
 export class Conto extends Livro{
-    private _deFadas: string;
+    private _tipoConto: string;
 
     //Metodo Construtor
-	constructor(id: number, nome: string, tipo: number, preco: number, deFadas: string) {
+	constructor(id: number, nome: string, tipo: number, preco: number, tipoConto: string) {
         super(id, nome, tipo, preco)
-		this._deFadas = deFadas;
+		this._tipoConto = tipoConto;
 	}
 
     //Metodos Get e Set
-	public get deFadas(): string {
-		return this._deFadas;
+	public get tipoConto(): string {
+		return this._tipoConto;
 	}
 
-	public set deFadas(value: string) {
-		this._deFadas = value;
+	public set tipoConto(value: string) {
+		this._tipoConto = value;
 	}
 
     public visualizar(): void {
         super.visualizar();
-        console.log("De Fadas: " + this._deFadas);
+        console.log("Tipo do Conto: " + this._tipoConto);
     }
 
 }
